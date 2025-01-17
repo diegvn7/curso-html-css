@@ -9,6 +9,12 @@
     padding: 90px;
 }
 
+.banner.-second{
+    background-image: none;
+    background-color: #1F3550;
+    border-bottom:10px solid #7C5E99;
+}
+
 .banner .box{
     margin-bottom: 48px;
 }
@@ -22,5 +28,4 @@
 .banner .navegation{
     display: flex;
     justify-content: space-around;
-
 }

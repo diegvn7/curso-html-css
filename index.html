@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Press+Start+2P&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="CSS/reset.css">
-    <link rel="stylesheet" href="CSS/componets/title.css">
+    <link rel="stylesheet" href="CSS/componets/main-title.css">
     <link rel="stylesheet" href="CSS/componets/subtitle.css">
     <link rel="stylesheet" href="CSS/componets/box.css"> 
     <link rel="stylesheet" href="CSS/componets/botton.css">
@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="CSS/componets/header.css">
     <link rel="stylesheet" href="CSS/componets/banner.css">
     <link rel="stylesheet" href="CSS/componets/section.css">
+    <link rel="stylesheet" href="CSS/componets/skill-tec.css">
+    <link rel="stylesheet" href="CSS/componets/progress-bar.css">
 </head>
 <body>
     <header class="header"> <!-- é o elemento que representa o cabeçalho de uma página, ou seja, a parte superior do site -->
@@ -33,7 +35,7 @@
     <section class="banner">
         <div class="wrapper">
         <div class="box">
-                <h1 class="title">Kanye West</h1>
+                <h1 class="main-title">Kanye West</h1>
                 <h2 class="subtitle">FrontEnd Developer</h2>
             </div>
             <div class="navegation">
@@ -43,7 +45,17 @@
         </div>
     </section>
     <section class="section">
-        <h1 class="title -second">Skills</h1>
+        <h2 class="main-title -second">Skills</h2>
+
+        <article class="skill-tec">
+                <img class="icon" src="assets/img/ico_html5.png" alt="Logo no html 5 em pixel arte">
+            <div class="right">
+                <h3 class="title">HTML</h3>
+                    <progress class="progress-bar" max="100" value="70">
+                        70%
+                    </progress>
+            </div>
+        </article>
     </section>
 </body>
 </html>

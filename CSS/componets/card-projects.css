@@ -1,0 +1,13 @@
+.card-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F3550;
+    height: 280px;
+    width: 280px;
+    box-shadow: 10px 10px 0px #fff;
+}
+
+.card-projects.-purple {
+    background-color: #7C5E99;
+}

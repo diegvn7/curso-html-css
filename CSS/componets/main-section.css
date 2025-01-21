@@ -16,3 +16,11 @@
 .main-section.-bdPink {
     border-bottom: 10px solid #F25A70;
 }
+
+.main-section.-bgPurple {
+    background-color: #7C5E99;
+}
+
+.main-section.-bdBlack {
+    border-bottom: 10px solid #000;
+}

@@ -1,0 +1,18 @@
+.button-arrow {
+    height: 50px;
+    width: 50px;
+    box-shadow: 5px 5px 0px #000;
+    cursor: pointer;
+}
+
+.button-arrow .content {
+    display: none;
+}
+
+.button-arrow.-left {
+    background-image: url(../../assets/img/buttons/button-arrow-left.png);;
+}
+
+.button-arrow.-right {
+    background-image: url(../../assets/img/buttons/button-arrow-right.png);;
+}

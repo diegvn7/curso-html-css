@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="CSS/componets/main-description.css">
     <link rel="stylesheet" href="CSS/componets/button-arrow.css">
     <link rel="stylesheet" href="CSS/componets/node-card.css">
+    <link rel="stylesheet" href="CSS/componets/main-carousel.css">
 </head>
 <body>
     <header class="main-header"> <!-- é o elemento que representa o cabeçalho de uma página, ou seja, a parte superior do site -->
@@ -157,45 +158,54 @@
             Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.
         </p>
 
-        <button class="button-arrow -left"><span class="content">esquerda</span></button>
-            <figure class="node-card">
-                <figcaption class="title">2020</figcaption>    
-                <div class="logo">
-                    <img src="assets/img/Timeline/logo-locaweb.png" alt="Logo da loca web">
+        <selection class="main-carousel">
+            <button class="button-arrow -left"><span class="content">esquerda</span></button>
+                <div class="items">
+                    <div class="elements">
+                        <figure class="node-card">
+                            <figcaption class="title">2020</figcaption>    
+                            <div class="logo">
+                                <img src="assets/img/Timeline/logo-locaweb.png" alt="Logo da loca web">
+                            </div>
+                        </figure>
+                        <figure class="node-card">
+                            <figcaption class="title">2021</figcaption>    
+                            <div class="logo -clean">
+                                <img src="assets/img/Timeline/logo-caelum (1).png" alt="Logo da caelum">
+                            </div>
+                        </figure>
+                        <figure class="node-card">
+                            <figcaption class="title">2022</figcaption>    
+                            <div class="logo -bcPink">
+                                <img src="assets/img/Timeline/logo-getninjas.png" alt="Logo da getninjas">
+                            </div>
+                        </figure>
+                        <figure class="node-card">
+                            <figcaption class="title">2022</figcaption>    
+                            <div class="logo -clean">
+                                <img src="assets/img/Timeline/logo-caelum (1).png" alt="Logo da caelum">
+                            </div>
+                        </figure>
+                        <figure class="node-card">
+                            <figcaption class="title">2023</figcaption>    
+                            <div class="logo -bcPink">
+                                <img src="assets/img/Timeline/logo-collabcode.png" alt="Logo da loca web">
+                            </div>
+                        </figure>
+                        <figure class="node-card">
+                            <figcaption class="title">2024</figcaption>    
+                            <div class="logo">
+                                <img src="assets/img/Timeline/logo-impulso.png" alt="Logo da impulso">
+                            </div>
+                        </figure>
+                    </div>
                 </div>
-            </figure>
-            <figure class="node-card">
-                <figcaption class="title">2021</figcaption>    
-                <div class="logo -clean">
-                    <img src="assets/img/Timeline/logo-caelum (1).png" alt="Logo da caelum">
-                </div>
-            </figure>
-            <figure class="node-card">
-                <figcaption class="title">2022</figcaption>    
-                <div class="logo -bcPink">
-                    <img src="assets/img/Timeline/logo-getninjas.png" alt="Logo da getninjas">
-                </div>
-            </figure>
-            <figure class="node-card">
-                <figcaption class="title">2022</figcaption>    
-                <div class="logo -clean">
-                    <img src="assets/img/Timeline/logo-caelum (1).png" alt="Logo da caelum">
-                </div>
-            </figure>
-            <figure class="node-card">
-                <figcaption class="title">2023</figcaption>    
-                <div class="logo -bcPink">
-                    <img src="assets/img/Timeline/logo-collabcode.png" alt="Logo da loca web">
-                </div>
-            </figure>
-            <figure class="node-card">
-                <figcaption class="title">2024</figcaption>    
-                <div class="logo">
-                    <img src="assets/img/Timeline/logo-impulso.png" alt="Logo da impulso">
-                </div>
-            </figure>
 
-        <button class="button-arrow -right"><span class="content">direita</span></button>
+            <button class="button-arrow -right"><span class="content">direita</span></button>
+        </selection>
+
     </section>
+
+    <script src="js/components/main-carousel.js"></script>
 </body>
 </html>

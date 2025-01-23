@@ -14,3 +14,7 @@
     background-color: rgb(255, 0, 140);
     transform: scale(1.01);
 }
+
+.main-button.-full {
+    width: 100%;
+}
